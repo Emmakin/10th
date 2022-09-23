@@ -1,0 +1,12 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.todoBody{
+    display: flex;
+    flex-direction:row;
+    row-gap: 2rem;
+}
+  
