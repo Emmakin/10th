@@ -1,12 +1,12 @@
-const btnE1 = document.querySelector("btn");
-const num_spaceE1 = document.querySelector("num_space");
+const btnE1 = document.getElementById("btn");
+const num_spaceE1 = document.getElementById("num_space");
 
 
-let count = 0
+let count = 0;
 
-
-function UpdateNum(){
+btnE1.addEventListener("click", function UpdateNum(){
     count +=1;
-    num_spaceE1.textContent = count;
+     num_spaceE1.textContent = count;
+});
 
-}
+
