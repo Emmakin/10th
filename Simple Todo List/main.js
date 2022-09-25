@@ -1,6 +1,6 @@
 let todoBtnE1 =  document.getElementById("todoBtn");
 let todoArea = document.getElementById("todoArea");
-let todoInput = document.getElementById("todoInput");
+let todoInput = document.getElementById("inputValue");
 
 
 todoBtnE1.addEventListener('click', function addTodo(){
