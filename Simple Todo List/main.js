@@ -1,10 +1,10 @@
-let todobtnE1 =  document.getElementById("todobtn");
+let todoBtnE1 =  document.getElementById("todoBtn");
 let todoArea = document.getElementById("todoArea");
-let inputField = document.getElementById("inputField");
+let todoInput = document.getElementById("todoInput");
 
 
-todobtnE1.addEventListener('click', function addTodo(){
-    var paragraph = document.createElement('p');
+todoBtnE1.addEventListener('click', function addTodo(){
+    var paragraph = document.createElement('p')
     paragraph.innerText = inputField.value;
     todoArea.appendChild(paragraph);
 });
