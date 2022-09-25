@@ -9,5 +9,10 @@ todoBtnE1.addEventListener('click', function addTodo(){
     paragraph.innerText = todoInput.value;
     todoArea.appendChild(paragraph);
     todoInput.value = "";
-    paragraph.addEventListener('click', function())
+    paragraph.addEventListener('click', function(){
+        paragraph.style.textDecoration = 'line-through';
+        paragraph.addEventListener('dblclick', function(){
+            paragraph.removeChild(paragraph)
+
+    })
 });
