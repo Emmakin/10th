@@ -5,6 +5,6 @@ let todoInput = document.getElementById("todoInput");
 
 todoBtnE1.addEventListener('click', function addTodo(){
     var paragraph = document.createElement('p')
-    paragraph.innerText = inputField.value;
+    paragraph.innerText = todoInput.value;
     todoArea.appendChild(paragraph);
 });
