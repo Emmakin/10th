@@ -6,7 +6,9 @@
 
 .todoBody{
     display: flex;
-    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     row-gap: 2rem;
     border-radius: 2rem;
 }
