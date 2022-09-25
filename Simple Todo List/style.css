@@ -11,6 +11,7 @@
     flex-direction: column;
     row-gap: 2rem;
     border-radius: 2rem;
+    cursor: pointer;
 }
 
 .todobtn{
