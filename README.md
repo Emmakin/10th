@@ -1,5 +1,6 @@
 # 10th
 JS Mini Projects
 
-To show little project learnt over time inorder to home my javascript skills
+To hone my javascript skill with these project
+
 
