@@ -10,7 +10,7 @@ feet.addEventListener('input', function(){
 
 inches.addEventListener('input', function(){
     let i = inches.value;
-    let j = i * 12;
+    let j = i / 12;
     feet.value = j;
 });
 

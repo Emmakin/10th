@@ -1,4 +1,9 @@
 To test javascript knowlegde on the creation of unit converter
 
 
-The converter will convert from Feet to Inches and verse vasa
+The converter will convert from Feet to Inches and vice versa
+
+The formula to get is feet; is to divide the inch by 12.
+
+While the formula to get inch; is to multiply feet by 12
+
