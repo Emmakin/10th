@@ -1,5 +1,46 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
+}
+.wrapper {
+    padding: 0.5rem;
+}
+
+.messageBox {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 20px;
+    padding: 0.1rem;
+    height: 100%;
+    width: 500px;
+    max-width: 80%;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 0.8rem;
+    align-items: center;
+    justify-content: space-evenly;
+
+
+
+}
+
+.headerSide {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 2px solid  black;
+    padding: 0.2rem;
+}
+
+.headerTitle {
+    flex: 1;
+}
+
+.closeBtn {
+    width: 20px;
+    height: 20px;
+    border-radius: 0.2rem;
+    
 }
