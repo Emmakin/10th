@@ -1,0 +1,1 @@
+const dataModalButtons = document.querySelectorAll('data-modal-target');
