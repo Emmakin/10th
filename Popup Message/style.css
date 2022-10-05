@@ -66,3 +66,7 @@
     opacity: 1;
     pointer-events: all;
 }
+
+.body {
+    background-color: white;
+}
