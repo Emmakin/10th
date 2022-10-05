@@ -4,13 +4,14 @@
     /* box-sizing: border-box; */
 }
 
-.messageBox {
+.modal {
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(0);
+    transition: 200ms ease-in-out;
     margin: 20px;
-    height: 100%;
+    height: 80%;
     width: 500px;
     max-width: 80%;
     background-color: white;
@@ -21,11 +22,11 @@
     z-index: 10;
 }
 
-.messageBox:active {
+.modal.active {
     transform: translate(-50%, -50%) scale(1);
 }
 
-.headerSide {
+.modal-header {
     padding: 0.1rem;
     display: flex;
     flex-direction: row;
@@ -33,16 +34,16 @@
     padding: 0.2rem;
 }
 
-.headerTitle {
+.title {
     flex: 1;
     font-weight: 900px;
 }
 
-.bodySide {
+.modal-body {
     padding: 0.5rem;
 }
 
-.closeBtn {
+.close-button {
     width: 20px;
     height: 20px;
     border-radius: 0.2rem;
@@ -50,6 +51,7 @@
 }
 
 #overlay {
+    transition: 200ms ease-in-out;
     position: fixed;
     top:    0;
     left:   0;
@@ -60,7 +62,7 @@
     
 }
 
-#overlay:active {
+#overlay.active {
     opacity: 1;
     pointer-events: all;
 }

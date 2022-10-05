@@ -8,14 +8,13 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <div class="wrapper">
-        <button data-modal-target="#messageBox">Check Message</button>
-            <div class="messageBox" id="messageBox">
-                <div class="headerSide">
-                    <div class="headerTitle">From Bola</div>
-                    <div><button data-close-button class="closeBtn">&times;</button></div>
+        <button data-modal-target="#modal">Check Message</button>
+            <div class="modal" id="modal">
+                <div class="modal-header">
+                    <div class="title">From Bola</div>
+                    <button data-close-button class="close-button">&times;</button>
                 </div>
-                <div class="bodySide">
+                <div class="modal-body">
                     Lorem ipsum dolor sit amet consectetur
                      adipisicing elit. Quos consequuntur pe
                      rspiciatis porro neque velit iure delen
@@ -29,7 +28,6 @@
                      ae assumenda rem amet magni, enim suscipit.
                 </div>
             </div>
-    </div>
     <div id="overlay"></div>
    
 </body>
